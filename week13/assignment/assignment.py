@@ -14,6 +14,7 @@ import json
 import requests
 from common import *
 from log import Log
+from cse251functions import *
 from functions import depth_fs_pedigree, breadth_fs_pedigree, breadth_fs_pedigree_limit5
 
 DFS = 'Depth First Search'
@@ -76,4 +77,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    create_signature_file()
 

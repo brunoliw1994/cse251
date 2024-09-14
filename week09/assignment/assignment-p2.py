@@ -21,6 +21,7 @@ from screen import Screen
 from maze import Maze
 import sys
 import cv2
+from cse251functions import *
 
 SCREEN_SIZE = 800
 COLOR = (0, 0, 255)
@@ -125,3 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    create_signature_file()

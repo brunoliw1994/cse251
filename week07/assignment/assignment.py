@@ -28,6 +28,7 @@ from PIL import Image
 import numpy as np
 import timeit
 import multiprocessing as mp
+from cse251functions import *
 
 # 4 more than the number of cpu's on your computer
 CPU_COUNT = mp.cpu_count() + 4  
@@ -99,3 +100,5 @@ if __name__ == '__main__':
     plt.tight_layout()
     plt.savefig(f'Plot for {FRAME_COUNT} frames.png')
     plt.show()
+    
+    create_signature_file()

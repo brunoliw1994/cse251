@@ -21,6 +21,7 @@ import time
 import requests
 import json
 import threading
+from cse251functions import *
 
 
 # Const Values
@@ -92,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    create_signature_file()

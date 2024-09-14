@@ -36,6 +36,7 @@ import multiprocessing as mp
 import os
 import time
 from datetime import datetime, timedelta
+from cse251functions import *
 
 import numpy as np
 import requests
@@ -196,3 +197,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    create_signature_file()

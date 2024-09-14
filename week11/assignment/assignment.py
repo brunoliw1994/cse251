@@ -59,6 +59,7 @@ Instructions:
 
 import time
 import threading
+from cse251functions import *
 
 PHILOSOPHERS = 5
 MAX_MEALS = PHILOSOPHERS * 5
@@ -75,3 +76,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    create_signature_file()

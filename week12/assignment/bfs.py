@@ -1,6 +1,7 @@
 import queue
 import threading
 import time
+from cse251functions import *
 
 from virusApi import *
 
@@ -149,3 +150,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    create_signature_file()
