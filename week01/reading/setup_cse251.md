@@ -61,6 +61,7 @@ The following modules/packages need to be installed for use in our CSE251 class:
 3. matplotlib
 4. Pillow
 5. opencv-python
+6. termcolor
 
 ## <a name="install-git"></a> **Install Git**
 Git comes preinstalled with your VS Code. You need to clone our class repo. If you are reading this page in a browser, then you are inside of the the class repo. To clone it, go to the top most directory of the repo and click on the repo name in the breadcrumb and then click the "Code" button to get a copy of the repo path, use the HTTPS link.
