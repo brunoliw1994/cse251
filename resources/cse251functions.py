@@ -6,6 +6,7 @@ import uuid
 import hashlib
 from datetime import date, datetime
 from student_info import *
+import pathlib
 
 from PIL import Image, ImageDraw, ImageFont
 from termcolor import colored
@@ -97,7 +98,7 @@ def create_signature_file():
     resource_path = os.path.realpath(os.path.join(
         os.getcwd(), os.path.dirname(__file__)))
     # append the font name
-    font_path = resource_path + r"\COURBD.TTF"
+    font_path =  os.path.join(resource_path, "COURBD.TTF")
 
     img = Image.new('CMYK', (width, height))
     draw1 = ImageDraw.Draw(img)
