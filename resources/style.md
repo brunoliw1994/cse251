@@ -11,7 +11,7 @@ a way for you as a student to make the code "your own". This helps in two ways:
 1. Provides uniqueness to your code: providing evidence that your wrote it.
 2. Makes it easier for a reviewer (including yourself) to understand your thinking.
 
-So, here are some ideas about how make your code prefessional looking:
+So, here are some ideas about how make your code professional looking:
 
 1. Remove/Revise all TODO comments (these are just there to help you know what to write, but once you write it, 
    the comment should be either removed or revised with an explanation). Also, remove the keyword 'pass'. This is used for "stub functions", meaning for a function that is not fully implemented yet. The pass keyword prevents the 
@@ -30,15 +30,8 @@ So, here are some ideas about how make your code prefessional looking:
 6. Use whitespace to help split code into "paragraphs". If a few lines of code all work together to do something (like
    a FOR loop), then put whitespace between the top and bottom of it to help separate it. This makes reading
    your code much easier (happy grader = more points).
-
-7. Don't comment every line of code. Yeah, I know, didn't I say it is better to over-comment than under-comment? 
-   Yes, but too many comments can make your code "ugly" and harder to understand. Again, this art and is subjective.
    
 If you feel you've received unfair deductions for style, please email/speak with me. 
 
 I strongly believe that using good style helps focus your mind on your solution, aids in debugging, better pattern
 recognition, and help other people understand your code.
-
-4. Provide comments when in doubt. In an academic setting, it is better to over-comment than to under-comment. 
-   I like to comment on the purpose for a variable. When I go back to look at my code, it helps me to understand
-   the purpose for my objects. Comments don't have to be very long.
