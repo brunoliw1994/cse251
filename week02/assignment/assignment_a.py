@@ -31,11 +31,11 @@ def main():
     #    PRODUCT}'
 
     # Then with 10 (replace this line with your own comment)
-    #assert PRODUCT == 362880, f'The product should equal 78 but instead was {
+    #assert PRODUCT == 362880, f'The product should equal 362880 but instead was {
     #    PRODUCT}'
 
     # Then with 15 (replace this line with your own comment)
-    #assert PRODUCT == 87178291200, f'The product should equal 136 but instead was {
+    #assert PRODUCT == 87178291200, f'The product should equal 87178291200 but instead was {
     #    PRODUCT}'
     pass # delete this line
 
