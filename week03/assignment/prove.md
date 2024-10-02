@@ -11,15 +11,15 @@ Programs can run with and without threads.  In this assignment you will be takin
 See the list of requirements and psuedocode in [assignment](assignment.py).
 
 Psuedocode: 
-1. Create variable for the start number (10_000_000_000)
-2. Create variable for range of numbers to examine (110_003)
+1. Create variable for the start number (100_000_000)
+2. Create variable for range of numbers to examine (370_803)
 3. Create variable for number of threads (start with 1 to get your program running,
    then increase to 5, then 10).
 4. Determine an algorithm to partition the 110,003 numbers based on 
     the number of threads. Each thread should have approx. the same amount
     of numbers to examine. For example, if the number of threads is
-    5, then the first 4 threads will examine 22,000 numbers, and the
-    last thread will examine 22,003 numbers. Determine the start and
+    5, then the first 4 threads will examine 74,160 numbers, and the
+    last thread will examine 74,163 numbers. Determine the start and
     end values of each partition.
 5. Use these start and end values as arguments to a function.
 6. Use a thread to call this function.
